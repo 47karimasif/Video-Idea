@@ -1,0 +1,16 @@
+{{>header}}
+
+<div class="row">
+{{#each allideas}}
+   <div class="col-md-4">
+<div class="card card-body mb-3">
+  <h4 class="text-center" >{{title}}</h4>
+  <p class="text-center">{{details}}</p>
+</div>
+</div>
+{{else}}
+<p>No video ideas Listed</p>
+{{/each}}
+</div>
+
+{{>footer}}

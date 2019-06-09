@@ -1,0 +1,14 @@
+.btn.btn-dark{
+    display: block;
+    width:200px;
+     /* width:25% if u will put in % than during responsive row and column it will take the 25% width of it's alloted; */
+    margin:auto
+}
+.btn.btn-danger.btn-block{
+  display: block;
+  width:200px;
+  margin:auto
+}
+.navbar-nav{
+  list-style-type: none;
+}
